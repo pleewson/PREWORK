@@ -9,4 +9,3 @@ public class Zad2 {
         System.out.print(result);
     }
 }
-g
