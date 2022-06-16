@@ -11,7 +11,7 @@ public class Task_7 {
             String tempFaren00;
 
 
-        for (int i = 0; i < 13; i++){
+        for (int i = 0; i < tempCelc.length; i++){
                 tempFaren[i] = tempCelc[i] * 1.8 + 32;
                 tempFaren00 = String.format(Locale.ENGLISH, "%.2f", tempFaren[i]);
 
