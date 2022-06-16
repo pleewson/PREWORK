@@ -5,9 +5,9 @@ public class Task_7 {
             double[] tempCelc = {30, 29, 14, 42, -4, -10, 8, 14, 32, 11, 8, 0, 0};
             double[] tempFaren = new double[13]; //{0,0,0,0,0,0,0,0,0,0,0,0,0};
 
-            double suma = 0;
+            double avg = 0;
 
-            String suma00;
+            String avg00;
             String tempFaren00;
 
 
@@ -16,14 +16,14 @@ public class Task_7 {
                 tempFaren00 = String.format(Locale.ENGLISH, "%.2f", tempFaren[i]);
 
                 System.out.println(tempCelc[i] +" tempCelc -> tempFaren = " + tempFaren00);
-                suma += tempFaren[i];
+                avg += tempFaren[i];
             }
         System.out.println();
 
-           suma /= tempFaren.length;
+           avg /= tempFaren.length;
 
-           suma00 = String.format(Locale.ENGLISH, "%.2f", suma);
-        System.out.println("ŚREDNIA: " + suma00);
+           avg00 = String.format(Locale.ENGLISH, "%.2f", avg);
+        System.out.println("ŚREDNIA: " + avg00);
 
     }
 }
