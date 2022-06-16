@@ -12,7 +12,9 @@ public class Task_2 {
 
         //System.out.println(fruits[fruits.length-3] + fruits[fruits.length-2] + fruits[fruits.length-1]);
 
-        
+        for (int i = 0; i < 3; i++){
+            System.out.println(fruits[i]);
+        }
 
 
 
