@@ -7,7 +7,7 @@ public class Task_5 {
         for( int i = 0; i < 6; i++){
             if ( min > numbers[i]){
                 min = numbers[i];
-// CO BY BYLO LEPSZE OD 0 ???
+// CO BY BYLO LEPSZE OD 0 ????
                 System.out.println("MIN: " + min);
             }
         }
