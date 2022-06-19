@@ -10,5 +10,6 @@ public class loops1<E> {
             System.out.println("Większa liczba to: " + nr2);
             System.out.println(":)");
         }
+
     }
 }
