@@ -19,10 +19,21 @@ public class Main06 {
 
 
        int num = 3;
+       int j = 1;
+
        for(int i = 1; i <= num; i++){
+           System.out.printf("%d * %d = %d \n", j, i, j * i);
+
            //for(int j = 1; j <= num; j++)
-           
-           System.out.printf("%d * %d = %d \n", i, i, i * i);
+           if (i == num){
+               j++;
+               System.out.println();
+               System.out.printf("%d * %d = %d \n", j, i, j * i);
+
+           }
+
+
+      //     System.out.printf("%d * %d = %d \n", j, i, j * i);
 
        }
 
