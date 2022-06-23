@@ -1,4 +1,4 @@
-public class loops1 {
+public class loops1<E> {
     public static void main(String[] args) {
 
         int nr1 = 3;
@@ -8,6 +8,8 @@ public class loops1 {
             System.out.println("Większa liczba to: " + nr1);
         } else {
             System.out.println("Większa liczba to: " + nr2);
+            System.out.println(":)");
         }
+
     }
 }

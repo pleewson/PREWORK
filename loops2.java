@@ -1,4 +1,4 @@
-public class loops2 {
+public class loops2<JD> {
     public static void main(String[] args) {
 
         int nr1 = 3;

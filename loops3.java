@@ -10,6 +10,8 @@ public class loops3 {
         while ( j < 6 ) {
             System.out.println("Java");
             j++;
+
+            System.out.println();
         }
     }
 }
