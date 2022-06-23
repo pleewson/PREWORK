@@ -10,6 +10,19 @@ public class loops6 {
                 }
 
             }
+
+        System.out.println();
+
+        n = 0;
+        while (n <= 6){
+            if( n%2 == 0){
+                System.out.println(n + " - parity");
+            }else{
+                System.out.println(n + " - odd");
+            }
+            n++;
+        }
+
         }
     }
 
