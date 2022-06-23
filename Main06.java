@@ -18,17 +18,24 @@ public class Main06 {
         */
 
 
-       int num = 3;
-       int j = 1;
+       int num = Integer.parseInt(args[0]);
+      // int j = 1;
 
-       for(int i = 1; i <= num; i++){
-           System.out.printf("%d * %d = %d \n", j, i, j * i);
+       for (int i = 1; i <= num; i++){
+           System.out.println();
+           for (int j = 1; j <= num; j++){
+               System.out.printf("%d * %d = %d \n" ,i, j, i * j);
+
+           }
 
            //for(int j = 1; j <= num; j++)
-           if (i == num){
+          /* if (i == num){
                j++;
                System.out.println();
                System.out.printf("%d * %d = %d \n", j, i, j * i);
+
+           */
+
 
            }
 
@@ -37,7 +44,6 @@ public class Main06 {
 
        }
 
-        }
+}
 
-    }
 
