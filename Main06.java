@@ -30,6 +30,7 @@ public class Main06 {
                System.out.println();
                System.out.printf("%d * %d = %d \n", j, i, j * i);
 
+
            }
 
 
