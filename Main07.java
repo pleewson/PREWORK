@@ -12,6 +12,7 @@ public class Main07 {
                 x *= y;
             }
             System.out.print(x);
+            //changes
 
         }
 
