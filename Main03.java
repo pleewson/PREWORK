@@ -48,13 +48,18 @@ public class Main03 {
 
 
 
-        int parameter0 = Integer.parseInt(args[0]);
-        int parameter1 = Integer.parseInt(args[1]);
-        int parameter2 = Integer.parseInt(args[2]);
+       int[] paramStart = Integer.parseInt(args[])
+       float sum1 = 0;
 
-        double avg = (parameter0+parameter1+parameter2)/3;
+       int d = 0;
+       while(d<paramStart.length){
+           sum1 += paramStart[];[d];
+           d++;
+       }
 
-        System.out.println("average is " + avg);
+       float avarage = (sum1 / paramStart.length);
+        System.out.println("avarage :" +avarage);
+
 
 
     }
