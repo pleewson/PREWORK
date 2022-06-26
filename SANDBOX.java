@@ -18,8 +18,7 @@ public class SANDBOX {
         Math.sqrt (x);
         System.out.println(Math.sqrt(x));
 
-        int time = 23
-                ;
+        int time = 23;
         String result = (time < 18) ? "Good day" : "Good evening";
         System.out.println(result);
 
