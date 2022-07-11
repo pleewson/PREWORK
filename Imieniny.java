@@ -11,12 +11,13 @@ public class Imieniny {
         int amoutPeople =  Integer.parseInt(args[0]);
         int amoutsSweets = Integer.parseInt(args[1]);
 
+if( 1 <= amoutPeople && 1 <= amoutsSweets ) {
+            if (amoutPeople < amoutsSweets) {
+                System.out.println("BON APETIT people" + (args[0]) + " - sweets" + (args[1]));
+            } else {
+                System.out.println("NOT ENOUGH SWEETS people" + (args[0]) + " - sweets" + (args[1]));
 
-        if(amoutPeople < amoutsSweets) {
-            System.out.println("BON APETIT people" + (args[0]) + " - sweets" + (args[1]));
-        }else{
-            System.out.println("NOT ENOUGH SWEETS people" + (args[0]) + " - sweets" + (args[1]));
-
+            }
         }
 
 
