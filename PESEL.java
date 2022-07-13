@@ -1,6 +1,8 @@
 public class PESEL {
     public static void main(String[] args) {
 
+        /** WYPISZ NR PESEL A DOSTANIESZ ODP CZY JEST PRAWIDŁOWY:) */
+
         /*
 Pierwszą cyfrę mnożymy przez 1,
 drugą cyfrę mnożymy przez 3,
@@ -21,10 +23,16 @@ Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy je
 
          */
 
-        //int [] tablePESEL = new int [11];
-        int[] tablePESEL = {9,7,3,5,6,2,4,6,6,4,3};
+        int[] tablePESEL = new int [11];
         int suma = 0;
 
+        for(int i = 0; i < tablePESEL.length; i++){
+       tablePESEL[i] =  Integer.parseInt(args[i]);
+        }
+
+
+
+        //DZIAŁANIE
         tablePESEL[0] *= 1;
         tablePESEL[1] *= 3;
         tablePESEL[2] *= 7;
@@ -37,12 +45,13 @@ Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy je
         tablePESEL[9] *= 3;
         tablePESEL[10] *= 1;
 
+//Suma
         for (int i = 0; i < tablePESEL.length; i++) {
             suma = suma + tablePESEL[i];
         }
         System.out.println(suma);
 
-
+//LastDigit
         int lastDigit = 0;
         lastDigit = suma%10;
 
@@ -55,7 +64,7 @@ Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy je
 
 
         }
-        
+
 
     }
 
