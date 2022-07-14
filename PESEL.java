@@ -31,7 +31,6 @@ Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy je
         }
 
 
-
         //DZIAŁANIE
         tablePESEL[0] *= 1;
         tablePESEL[1] *= 3;
@@ -62,10 +61,7 @@ Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy je
         }
 
 
-
-        }
-
-
     }
+}
 
 
