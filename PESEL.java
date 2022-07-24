@@ -59,7 +59,7 @@ Tak uzyskane 11 iloczynów dodajemy do siebie. Jeśli ostatnia cyfra tej sumy je
         }else{
             System.out.println("N");
         }
-
+123
 
     }
 }
